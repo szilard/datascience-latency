@@ -6,7 +6,7 @@ computational resources. Computational time will depend on a lot of factors
 (e.g. software tool, hardware, tuning etc.) and thus will vary even for the same
 task. However, it is useful to know at least the *order of magnitude* of CPU time
 for the most common classes of analytical tasks with the typically available tools on 
-current hardware (2015). I'm making huge simplifications here (and I'm very 
+current hardware (in 2015). I'm making huge simplifications here (and I'm very 
 liberal with rounding).
 
 #### TL;DR
@@ -21,10 +21,11 @@ liberal with rounding).
 Pyramid of analytical tasks: each class is 1-2 orders of magnitude more
 computational time than the previous one.
 
+---------------------------------
 
 ##### Analytical tasks
 
-Non-linear supervised learning: random forests, non-sparse data
+Non-linear supervised learning: random forests
 
 Linear supervised learning: logistic regression
 
@@ -43,6 +44,7 @@ Most analytical tasks do not require "big data" tools. Currently "big data" tool
 have 1 order of magnitude performance hit vs the best single node tools and add 
 a lot of additional complexity.
 
+---------------------------------
 
 #### Details
 
