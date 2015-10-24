@@ -22,7 +22,7 @@ liberal with rounding).
 
 Pyramid of analytical tasks: each class is 1-2 orders of magnitude more
 computational time than the one below. Also sexiness and hype increases from bottom
-to top (from "janitorial" to "rock star"-like, though all of these tasks are 
+to top (from "janitorial" to "rock star"-like, though actually all these tasks are 
 important for data science).
 
 ---------------------------------
