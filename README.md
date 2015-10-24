@@ -76,7 +76,7 @@ Aggregate 100M records, group by 1M groups.
 
 Join previous 100M table with another table of 1M records.
 
-Timing: 8 cores, 0.5-2s, [details here](https://github.com/szilard/benchm-databases).
+Timing: 8 cores (m3.2xlarge), 0.5-2s, [details here](https://github.com/szilard/benchm-databases).
 
 
 ##### Adding numbers
