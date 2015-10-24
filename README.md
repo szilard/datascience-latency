@@ -91,7 +91,7 @@ Timing: 1s, [details here](https://gist.github.com/szilard/c8bce58c843296df9795)
 
 #### Acknowledgements
 
-Albert Eistein: Everything should be made as simple as possible, but not simpler.
+Albert Einstein: Everything should be made as simple as possible, but not simpler.
 
 [Latency Numbers Every Programmer Should Know](https://gist.github.com/jboner/2841832)
 
