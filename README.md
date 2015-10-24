@@ -11,12 +11,12 @@ liberal with rounding).
 
 #### TL;DR
 
-  | Analytical task                | Records  | Time | Rec/s 
---|--------------------------------|----------|------|-------
-1 | Non-linear supervised learning | 1M       | 100s | 10K   
-2 | Linear supervised learning     | 10M      | 10s  | 1M    
-3 | SQL                            | 100M     | 1s   | 100M  
-4 | Adding numbers                 | 1B       | 1s   | 1B    
+    | Analytical task                | Records  | Time | Rec/s 
+----|--------------------------------|----------|------|-------
+1   | Non-linear supervised learning | 1M       | 100s | 10K   
+2   | Linear supervised learning     | 10M      | 10s  | 1M    
+3   | SQL                            | 100M     | 1s   | 100M  
+4   | Adding numbers                 | 1B       | 1s   | 1B    
 
 Pyramid of analytical tasks: each class is 1-2 orders of magnitude more
 computational time than the previous one.
