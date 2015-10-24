@@ -1,12 +1,12 @@
  
 ### Latency numbers every data scientist should know
 
-Analytical tasks vary on a huge scale of sophistication and utilization of
-computational resources. Computational time will depend on a lot of factors 
+Analytical tasks vary on a huge scale of bith sophistication and utilization of
+computational resources. Computational time will depend on several factors 
 (e.g. software tool, hardware, tuning etc.) and thus will vary even for the same
 task. However, it is useful to know at least the *order of magnitude* of CPU time
-for the most common classes of analytical tasks with the typically available tools on 
-current hardware (in 2015). I'm making huge simplifications here (and I'm very 
+for the most common analytical tasks with the typically available tools on 
+current commodity hardware (in 2015). I'm making huge simplifications here (and I'm very 
 liberal with rounding).
 
 #### TL;DR
