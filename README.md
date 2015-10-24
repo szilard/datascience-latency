@@ -43,11 +43,13 @@ Adding numbers: sum of a vector in RAM
 
 Modern CPU, ~10 cores (EC2, 10 can be 8-32 to me - as I said I'm rounding like hell)
 
-Single machine (laptop/desktop/server), no distributed computing 
+Single machine (laptop/desktop/server), no distributed computing
 
 Most analytical tasks do not require "big data" tools. Currently "big data" tools
 have 1 order of magnitude performance hit vs the best single node tools and they also add 
-a lot of additional complexity. 
+a lot of additional complexity. You can get 250GB RAM on a single EC2 instance now 
+and 2TB from Spring 2016.
+
 
 ---------------------------------
 
@@ -77,7 +79,7 @@ Many tools: Vowpal Wabbit, H2O etc.
 
 Really simple aggregates and joins.
 
-Tools: analytical databases (like Verica or Redshift), R's data.table package, Python pandas.
+Tools: analytical databases (such as Vertica or Redshift), R's data.table package, Python pandas.
 
 Aggregate 100M records, group by 1M groups. Join previous 100M table with another table of 1M records.
 8 cores (m3.2xlarge), 0.5-2s, [details here](https://github.com/szilard/benchm-databases).
@@ -99,7 +101,7 @@ One can think in terms of #operations (FLOPS), CPU or memory bound, memory bandw
 multicore, pipelining etc. for the above 4 classes of analytical tasks.
 
 Would be also instructive to think about these for distributed systems, especially 
-for the overhyped "big data" tools (though in most "big data" architectures
+for the "big data" tools (though in most "big data" architectures like Hadoop or Spark
 the JVM etc. makes this very hard).
 
 
