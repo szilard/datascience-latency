@@ -1,7 +1,7 @@
  
 ### Latency numbers every data scientist should know
 
-Analytical tasks vary on a huge scale of bith sophistication and utilization of
+Analytical tasks vary on a huge scale of both sophistication and utilization of
 computational resources. Computational time will depend on several factors 
 (e.g. software tool, hardware, tuning etc.) and thus will vary even for the same
 task. However, it is useful to know at least the *order of magnitude* of CPU time
@@ -19,7 +19,7 @@ liberal with rounding).
 4   | Adding numbers                 | 1B       | 1s   | 1B    
 
 Pyramid of analytical tasks: each class is 1-2 orders of magnitude more
-computational time than the previous one.
+computational time than the one below.
 
 ---------------------------------
 
