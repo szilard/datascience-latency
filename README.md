@@ -50,7 +50,7 @@ a lot of additional complexity.
 
 ##### Non-linear supervised learning
 
-Random forests, ~100 features
+Random forests, non-sparse data, ~100 features
 
 Best open source tools: H2O and xgboost
 
@@ -87,7 +87,7 @@ Adding elements of a vector in RAM.
 
 `sum(x)` in R
 
-Timing: 1s, [details here](https://gist.github.com/szilard/c8bce58c843296df9795).
+Timing: 1B records, 1s, [details here](https://gist.github.com/szilard/c8bce58c843296df9795).
 
 
 
