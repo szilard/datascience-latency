@@ -82,7 +82,7 @@ Really simple aggregates and joins.
 Tools: analytical databases (such as Vertica or Redshift), R's data.table package, Python pandas.
 
 Aggregate 100M records, group by 1M groups. Join previous 100M table with another table of 1M records.
-8 cores (m3.2xlarge), 0.5-2s, [details here](https://github.com/szilard/benchm-databases).
+8 cores (m3.2xlarge), 0.5-2s (with the best tools), [details here](https://github.com/szilard/benchm-databases).
 
 
 ##### Adding numbers
