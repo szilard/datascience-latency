@@ -104,6 +104,8 @@ Would be also instructive to think about these for distributed systems, especial
 for the "big data" tools (though in most "big data" architectures like Hadoop or Spark
 the JVM etc. makes this very hard).
 
+It could be interesting to extend this project to some more specialized analytical tasks 
+e.g. text processing, graph processing (networks), recommendation systems etc.
 
 
 #### Acknowledgements
