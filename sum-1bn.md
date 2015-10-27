@@ -16,10 +16,13 @@ java version "1.8.0_60"
 
 #### TL;DR
 
-R    1.3s
-py   1.0s
-C    0.7s
-java 1.2s
+Lang | Time (s)
+-----|----- 
+R    | 1.3
+py   | 1.0
+C    | 0.7
+java | 1.2
+
 
 
 #### R
@@ -27,7 +30,6 @@ java 1.2s
 ```
 x <- rep(1,1e9)
 system.time({ s <- sum(x) })
-
 
 #   user  system elapsed 
 #  1.278   0.000   1.279 
