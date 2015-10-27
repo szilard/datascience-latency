@@ -1,19 +1,4 @@
 
-
-#### HW+SW ver
-
-```
-model name      : Intel(R) Xeon(R) CPU           E5540  @ 2.53GHz
-Data Width: 64 bits     Form Factor: DIMM      Speed: 1333 MHz
-
-Ubuntu 14.04.3 LTS
-R version 3.2.2 
-print numpy.__version__   1.9.1
-gcc (Ubuntu 4.8.4-2ubuntu1~14.04) 4.8.4
-java version "1.8.0_60"
-```
-
-
 #### TL;DR
 
 Lang | Time (s)
@@ -23,6 +8,9 @@ py   | 1.0
 C    | 0.7
 java | 1.2
 
+
+
+---------------------------------------------
 
 
 #### R
@@ -129,4 +117,20 @@ public class Sum {
 # 1.193732184
 # 1.0E9
 ```
+
+---------------------------------------------
+
+#### HW+SW versions
+
+```
+model name      : Intel(R) Xeon(R) CPU           E5540  @ 2.53GHz
+Data Width: 64 bits     Form Factor: DIMM      Speed: 1333 MHz
+
+Ubuntu 14.04.3 LTS
+R version 3.2.2 
+print numpy.__version__   1.9.1
+gcc (Ubuntu 4.8.4-2ubuntu1~14.04) 4.8.4
+java version "1.8.0_60"
+```
+
 
