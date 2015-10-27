@@ -9,8 +9,7 @@ computational resources. Computational time will depend on several factors
 and thus will vary even for the same
 task. However, it is useful to know at least the *order of magnitude* of CPU time
 for the most common analytical tasks with the typically available tools on 
-commodity hardware (in 2015). I'm making huge simplifications here (and I'm very 
-liberal with rounding).
+commodity hardware (in 2015). I'm making huge simplifications here.
 
 #### TL;DR
 
@@ -23,10 +22,12 @@ liberal with rounding).
 
 Take these numbers with a great caveat though. While hardware performance does not
 vary orders of magnitude, the performance accross tools unfortunately (and somewhat
-surprizingly) does. There might be also a significant variation depending on the
+surprizingly) does. Some tools are 10x-100x slower than the best once. 
+There might also be a significant variation depending on the
 type/structure/shape of the data and numerous other factors.
 
-Anyway, there is a "pyramid of analytical tasks": each class is 1-2 orders of magnitude more
+Anyway, there is a "pyramid of analytical tasks": each class is 1-2 orders of magnitude
+(10x-100x) more
 computational time than the one below. Also sexiness and hype increases from bottom
 to top (from "janitorial" to "rock star"-like, though actually all these tasks are 
 important for data science).
@@ -47,7 +48,7 @@ Adding numbers: sum of a vector in RAM
 
 #### Hardware
 
-Modern CPU, ~10 cores (EC2, 10 can be 8-32 to me - as I said I'm rounding like hell)
+Modern CPU, ~10 cores (EC2, 10 can be 8-32 as order of magnitude is concerned.)
 
 Single machine (laptop/desktop/server), no distributed computing
 
