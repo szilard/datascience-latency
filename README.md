@@ -93,6 +93,7 @@ Adding elements of a vector in RAM.
 
 1B records, 1s, [details here](https://github.com/szilard/datascience-latency/blob/master/sum-1bn.md).
 
+(this is essentially the memory bandwidth)
 
 
 #### TODO
