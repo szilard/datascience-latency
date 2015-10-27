@@ -91,7 +91,7 @@ Adding elements of a vector in RAM.
 
 `sum(x)` in R (numbers stored contigously in memory, loop executes at C level)
 
-1B records, 1s, [details here](https://gist.github.com/szilard/c8bce58c843296df9795).
+1B records, 1s, [details here](https://github.com/szilard/datascience-latency/blob/master/sum-1bn.md).
 
 
 
