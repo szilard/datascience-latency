@@ -5,7 +5,8 @@
 
 Analytical tasks vary on a huge scale of both sophistication and utilization of
 computational resources. Computational time will depend on several factors 
-(e.g. software tool, hardware, tuning etc.) and thus will vary even for the same
+(e.g. software tool, hardware, tuning, dataset size/structure etc.) 
+and thus will vary even for the same
 task. However, it is useful to know at least the *order of magnitude* of CPU time
 for the most common analytical tasks with the typically available tools on 
 commodity hardware (in 2015). I'm making huge simplifications here (and I'm very 
@@ -20,7 +21,12 @@ liberal with rounding).
 3   | SQL                            | 100M     | 1s   | 100M  
 4   | Adding numbers                 | 1B       | 1s   | 1B    
 
-Pyramid of analytical tasks: each class is 1-2 orders of magnitude more
+Take these numbers with a great caveat though. While hardware performance does not
+vary orders of magnitude, the performance accross tools unfortunately (and somewhat
+surprizingly) does. There might be also a significant variation depending on the
+type/structure/shape of the data and numerous other factors.
+
+Anyway, there is a "pyramid of analytical tasks": each class is 1-2 orders of magnitude more
 computational time than the one below. Also sexiness and hype increases from bottom
 to top (from "janitorial" to "rock star"-like, though actually all these tasks are 
 important for data science).
@@ -47,8 +53,8 @@ Single machine (laptop/desktop/server), no distributed computing
 
 Most analytical tasks do not require "big data" tools. Currently "big data" tools
 have 1 order of magnitude performance hit vs the best single node tools and they also add 
-a lot of additional complexity. You can get 250GB RAM on a single EC2 instance now 
-and 2TB from Spring 2016.
+a lot of additional complexity. You can get 250 GB RAM on a single EC2 instance now 
+and 2 TB from Spring 2016. 
 
 
 ---------------------------------
@@ -93,15 +99,15 @@ Adding elements of a vector in RAM.
 
 1B records, 1s, [details here](https://github.com/szilard/datascience-latency/blob/master/sum-1bn.md).
 
-(this is essentially the memory bandwidth)
+(this essentially runs at memory bandwidth)
 
 
 #### TODO
 
-One can think in terms of #operations (FLOPS), CPU or memory bound, memory bandwidth,
+One can do more thinking in terms of #operations (FLOPS), CPU or memory bound, memory bandwidth,
 multicore, pipelining etc. for the above 4 classes of analytical tasks.
 
-Would be also instructive to think about these for distributed systems, especially 
+It would be also instructive to think about these for distributed systems, especially 
 for the "big data" tools (though in most "big data" architectures like Hadoop or Spark
 the JVM etc. makes this very hard).
 
@@ -111,7 +117,7 @@ e.g. text processing, graph processing (networks), recommendation systems etc.
 
 #### Acknowledgements
 
-All those who encouraged/helped me learn physics 20+ years ago. 
+All those (e.g. my parents/teachers) who encouraged/helped me learn Physics 20+ years ago. 
 
 Albert Einstein: Everything should be made as simple as possible, but not simpler.
 
