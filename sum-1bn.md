@@ -1,12 +1,15 @@
 
 #### TL;DR
 
-Lang | Time (s)
------|----- 
-R    | 1.3
-py   | 1.0
-C    | 0.7
-java | 1.2
+
+Adding 1 billion numbers:
+
+Language | Time (s)
+---------|----- 
+R        | 1.3
+py       | 1.0
+C        | 0.7
+java     | 1.2
 
 
 
