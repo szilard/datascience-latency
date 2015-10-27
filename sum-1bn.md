@@ -2,6 +2,7 @@
 
 #### HW+SW ver
 
+```
 model name      : Intel(R) Xeon(R) CPU           E5540  @ 2.53GHz
 Data Width: 64 bits     Form Factor: DIMM      Speed: 1333 MHz
 
@@ -10,7 +11,7 @@ R version 3.2.2
 print numpy.__version__   1.9.1
 gcc (Ubuntu 4.8.4-2ubuntu1~14.04) 4.8.4
 java version "1.8.0_60"
-
+```
 
 
 #### TL;DR
@@ -23,29 +24,33 @@ java 1.2s
 
 #### R
 
+```
 x <- rep(1,1e9)
 system.time({ s <- sum(x) })
 
+
 #   user  system elapsed 
 #  1.278   0.000   1.279 
-
+```
 
 
 
 #### python
 
+```
 import numpy as np
 x = np.ones(1e9)
 %time s = np.sum(x)
 
 # CPU times: user 1.04 s, sys: 126 µs, total: 1.04 s
 # Wall time: 1.04 s
-
+```
 
 
 
 #### C
 
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -72,8 +77,9 @@ int main(int argc, char **argv)
   printf("sum: %e\n", s);
   return 0;
 }
+```
 
-
+```
 # gcc a.c && ./a.out 
 # time: 3.698912
 # sum: 1.000000e+09
@@ -85,12 +91,13 @@ int main(int argc, char **argv)
 # gcc -Ofast a.c && ./a.out 
 # time: 0.690078
 # sum: 1.000000e+09
-
+```
 
 
 
 #### Java
 
+```
 public class Sum {
 
     public static void main (String[] args) {
@@ -113,9 +120,11 @@ public class Sum {
       System.out.println (s);
     }
 }
+```
 
+```
 # javac Sum.java && java Sum
 # 1.193732184
 # 1.0E9
-
+```
 
