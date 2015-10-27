@@ -22,7 +22,7 @@ commodity hardware (in 2015). I'm making huge simplifications here.
 
 Take these numbers with a great caveat though. While hardware performance does not
 vary orders of magnitude, the performance accross tools unfortunately (and somewhat
-surprizingly) does. Some tools are 10x-100x slower than the best once. 
+surprizingly) does. Some tools are 10x-100x slower than the best ones. 
 There might also be a significant variation depending on the
 type/structure/shape of the data and numerous other factors.
 
@@ -105,12 +105,14 @@ Adding elements of a vector in RAM.
 
 #### TODO
 
-One can do more thinking in terms of #operations (FLOPS), CPU or memory bound, memory bandwidth,
-multicore, pipelining etc. for the above 4 classes of analytical tasks.
+It would be interesting to do some more thinking in terms of #operations (FLOPS), 
+CPU or memory bound, memory bandwidth, multicore, L1,L2,L3 caches, pipelining etc. 
+for the above 4 classes of analytical tasks. It would be also great to do some
+intrumentations and measure/see the inner workings. 
 
 It would be also instructive to think about these for distributed systems, especially 
 for the "big data" tools (though in most "big data" architectures like Hadoop or Spark
-the JVM etc. makes this very hard).
+the JVM etc. makes this harder).
 
 It could be interesting to extend this project to some more specialized analytical tasks 
 e.g. text processing, graph processing (networks), recommendation systems etc.
