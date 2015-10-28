@@ -53,10 +53,10 @@ Modern CPU, ~10 cores (EC2, 10 can be 8-32 as order of magnitude is concerned.)
 
 Single machine (laptop/desktop/server), no distributed computing
 
-Most analytical tasks do not require "big data" tools. Currently "big data" tools
+Most analytical tasks do not require "big data" tools. Currently "big data" tools (like Hadoop or Spark)
 have 1-2 order of magnitude (10x-100x) performance hit vs the best single node tools and they also add 
 a lot of additional complexity. You can get 250 GB RAM on a single EC2 instance now 
-and 2 TB from Spring 2016, and solve most of your analytics problems on a single-node 
+(2 TB from Spring 2016) and solve most of your analytics problems on a single-node 
 efficiently (and cost effectively).
 
 
