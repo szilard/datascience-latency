@@ -4,14 +4,14 @@
 
 Adding 1 billion numbers:
 
-Language | Time (s)
+Language | Time (sec)
 ---------|----- 
 R        | 1.3
 py       | 1.0
 C        | 0.7
 java     | 1.2
 
-This is all about 1s, and it is the single-thread memory bandwidth of the machine,
+This is all about 1sec, and it is the single-thread memory bandwidth of the machine,
 ~8GB/sec (the numbers are 64-bit/8-byte doubles, i.e. 8GB in RAM).
 
 
