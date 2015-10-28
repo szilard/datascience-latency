@@ -11,7 +11,7 @@ py       | 1.0
 C        | 0.7
 java     | 1.2
 
-This is all about 1sec, and it is the single-thread memory bandwidth of the machine,
+This is all about 1 sec, and it is the single-thread memory bandwidth of the machine,
 ~8GB/sec (the numbers are 64-bit/8-byte doubles, i.e. 8GB in RAM).
 
 
