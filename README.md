@@ -27,9 +27,9 @@ reflect the best tools).
 There might also be a significant variation depending on the
 type/structure/shape of the data and several other factors.
 
-In any case, there is certainly a "pyramid of analytical tasks": each class requires 
+In any case, **there is certainly a "pyramid of analytical tasks": each class requires 
 1-2 orders of magnitude (10x-100x) more
-computational time than the one below. Also sexiness and hype increases from bottom
+computational time than the one below**. Also sexiness and hype increases from bottom
 to top (from "janitorial" to "rock star"-like, though actually all these tasks are 
 important for data science).
 
