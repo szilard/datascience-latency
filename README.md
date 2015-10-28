@@ -21,8 +21,8 @@ commodity hardware (in 2015). I'm making huge simplifications here.
 4   | Adding numbers                 | 1B       | 1s   | 1B    
 
 Take these numbers with a great caveat though. While hardware performance does not
-vary orders of magnitude, the performance accross tools unfortunately (and somewhat
-surprizingly) does. Some tools are 10x-100x slower than the best ones. 
+vary orders of magnitude, the performance across tools unfortunately (and somewhat
+surprisingly) does. Some tools are 10x-100x slower than the best ones. 
 There might also be a significant variation depending on the
 type/structure/shape of the data and numerous other factors.
 
@@ -108,7 +108,7 @@ Adding elements of a vector in RAM.
 It would be interesting to do some more thinking in terms of #operations (FLOPS), 
 CPU or memory bound, memory bandwidth, multicore, L1,L2,L3 caches, pipelining etc. 
 for the above 4 classes of analytical tasks. It would be also great to do some
-intrumentations and measure/see the inner workings. 
+instrumentations and measure/see the inner workings. 
 
 It would be also instructive to think about these for distributed systems, especially 
 for the "big data" tools (though in most "big data" architectures like Hadoop or Spark
