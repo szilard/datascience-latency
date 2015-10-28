@@ -20,7 +20,7 @@ commodity hardware (in 2015). I'm making huge simplifications here.
 3   | SQL                            | 100M     | 1s   | 100M  
 4   | Adding numbers                 | 1B       | 1s   | 1B    
 
-Take these numbers with a great caveat. While hardware performance does not
+Take these numbers with a caveat though. While hardware performance does not
 vary orders of magnitude, the performance across tools unfortunately (and somewhat
 surprisingly) does. Some tools are 10x-100x slower than the best ones (the above numbers
 reflect the best tools). 
