@@ -8,7 +8,7 @@ computational resources. Computational time will depend on several factors
 (e.g. software tool, hardware, tuning, dataset size/structure etc.) 
 and thus will vary even for the same
 task. However, it is useful to know at least the *order of magnitude* of CPU time
-for the most common analytical tasks with the typically available tools on 
+(per data size) for the most common analytical tasks with the typically available tools on 
 commodity hardware (in 2015). I'm making huge simplifications here.
 
 #### TL;DR
@@ -26,7 +26,7 @@ surprisingly) does. Some tools are 10x-100x slower than the best ones.
 There might also be a significant variation depending on the
 type/structure/shape of the data and numerous other factors.
 
-Anyway, there is a "pyramid of analytical tasks": each class is 1-2 orders of magnitude
+Anyway, there is certainly a "pyramid of analytical tasks": each class is 1-2 orders of magnitude
 (10x-100x) more
 computational time than the one below. Also sexiness and hype increases from bottom
 to top (from "janitorial" to "rock star"-like, though actually all these tasks are 
@@ -108,7 +108,7 @@ Adding elements of a vector in RAM.
 It would be interesting to do some more thinking in terms of #operations (FLOPS), 
 CPU or memory bound, memory bandwidth, multicore, L1,L2,L3 caches, pipelining etc. 
 for the above 4 classes of analytical tasks. It would be also great to do some
-instrumentations and measure/see the inner workings. 
+instrumentation and to measure/see the inner workings. 
 
 It would be also instructive to think about these for distributed systems, especially 
 for the "big data" tools (though in most "big data" architectures like Hadoop or Spark
