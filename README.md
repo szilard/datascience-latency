@@ -104,10 +104,10 @@ Adding elements of a vector in RAM.
 (this essentially runs at memory bandwidth).
 
 
-#### TODO
+#### Possible things to do
 
 It would be interesting to do some more thinking in terms of #operations (FLOPS), 
-CPU or memory bound, memory bandwidth, multicore, L1,L2,L3 caches, pipelining etc. 
+CPU or memory bound (memory bandwidth), multicore, L1,L2,L3 caches, pipelining etc. 
 for the above 4 classes of analytical tasks. It would be also great to do some
 instrumentation and to measure/see the inner workings. 
 
