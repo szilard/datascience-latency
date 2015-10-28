@@ -20,14 +20,15 @@ commodity hardware (in 2015). I'm making huge simplifications here.
 3   | SQL                            | 100M     | 1s   | 100M  
 4   | Adding numbers                 | 1B       | 1s   | 1B    
 
-Take these numbers with a great caveat though. While hardware performance does not
+Take these numbers with a great caveat. While hardware performance does not
 vary orders of magnitude, the performance across tools unfortunately (and somewhat
-surprisingly) does. Some tools are 10x-100x slower than the best ones. 
+surprisingly) does. Some tools are 10x-100x slower than the best ones (the above numbers
+reflect the best tools). 
 There might also be a significant variation depending on the
-type/structure/shape of the data and numerous other factors.
+type/structure/shape of the data and several other factors.
 
-Anyway, there is certainly a "pyramid of analytical tasks": each class is 1-2 orders of magnitude
-(10x-100x) more
+In any case, there is certainly a "pyramid of analytical tasks": each class requires 
+1-2 orders of magnitude (10x-100x) more
 computational time than the one below. Also sexiness and hype increases from bottom
 to top (from "janitorial" to "rock star"-like, though actually all these tasks are 
 important for data science).
@@ -53,9 +54,10 @@ Modern CPU, ~10 cores (EC2, 10 can be 8-32 as order of magnitude is concerned.)
 Single machine (laptop/desktop/server), no distributed computing
 
 Most analytical tasks do not require "big data" tools. Currently "big data" tools
-have 1 order of magnitude performance hit vs the best single node tools and they also add 
+have 1-2 order of magnitude (10x-100x) performance hit vs the best single node tools and they also add 
 a lot of additional complexity. You can get 250 GB RAM on a single EC2 instance now 
-and 2 TB from Spring 2016. 
+and 2 TB from Spring 2016, and solve most of your analytics problems on a single-node 
+efficiently (and cost effectively).
 
 
 ---------------------------------
