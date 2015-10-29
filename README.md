@@ -112,7 +112,7 @@ for the above 4 classes of analytical tasks. It would be also great to do some
 instrumentation and to measure/see the inner workings at this level. 
 
 It might be helpful to verify whether the distributed systems that are best performant
-on single-node as well scale linearly or not, in which case one can talk about
+on single-node scale linearly or not, in which case one can talk about
 CPU time per datasize per node.
 
 It would be also instructive to think about the previously mentioned harware/software
