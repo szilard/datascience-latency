@@ -98,7 +98,7 @@ Aggregate 100M records, group by 1M groups. Join previous 100M table with anothe
 
 Adding elements of a vector in RAM.
 
-`sum(x)` in R (numbers stored contigously in memory, loop executes at C level)
+`sum(x)` in R (numbers stored contiguously in memory, loop executes at C level)
 
 1B records, 1s, [details here](https://github.com/szilard/datascience-latency/blob/master/sum-1bn.md)
 (this essentially runs at memory bandwidth, same for Python, C or Java).
