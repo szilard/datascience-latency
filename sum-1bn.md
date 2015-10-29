@@ -14,6 +14,10 @@ java     | 1.2
 This is all about 1 sec, and it is the single-thread memory bandwidth of the machine,
 ~8GB/sec (the numbers are 64-bit/8-byte doubles, i.e. 8GB in RAM).
 
+A simple [parallelized version in C](https://gist.github.com/szilard/d3cb76839fddc2d529f3) 
+runs in 0.5 sec on 16 cores (vs single-threaded 0.7 sec),
+by exploiting that the multi-thread memory bandwidth is larger than the single-threaded one.
+You can measure both using [pmbw](https://panthema.net/2013/pmbw/).
 
 ---------------------------------------------
 
