@@ -16,8 +16,9 @@ This is all about 1 sec, and it is the single-thread memory bandwidth of the mac
 
 A simple [parallelized version in C](https://gist.github.com/szilard/d3cb76839fddc2d529f3) 
 runs in 0.5 sec on 16 cores (vs single-threaded 0.7 sec),
-by exploiting that the multi-thread memory bandwidth is larger than the single-threaded one.
-You can measure both using [pmbw](https://panthema.net/2013/pmbw/).
+by exploiting that the multi-thread memory bandwidth is slightly larger than the single-threaded one
+(but not proportionally with the number of threads/cores).
+You can measure the memory bandwiths with [pmbw](https://panthema.net/2013/pmbw/).
 
 ---------------------------------------------
 
