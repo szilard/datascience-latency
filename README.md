@@ -117,7 +117,7 @@ CPU time per datasize per node.
 
 It would be also instructive to think about the previously mentioned harware/software
 characteristics also for the distributed systems (adding networking), though for 
-"big data" architectures like Hadoop or Spark the JVM-layer etc. makes this harder).
+"big data" architectures like Hadoop or Spark the JVM-layer etc. makes this harder.
 
 It could be interesting to extend this project to some more specialized analytical tasks 
 e.g. text processing, graph processing (networks), recommendation systems etc.
