@@ -18,7 +18,7 @@ A simple [parallelized version in C](https://gist.github.com/szilard/d3cb76839fd
 runs in 0.5 sec on 16 cores (vs single-threaded 0.7 sec),
 by exploiting that the multi-thread memory bandwidth is slightly larger than the single-threaded one
 (but not proportionally with the number of threads/cores).
-You can measure the memory bandwiths with [pmbw](https://panthema.net/2013/pmbw/).
+You can measure memory bandwith with [pmbw](https://panthema.net/2013/pmbw/).
 
 ---------------------------------------------
 
