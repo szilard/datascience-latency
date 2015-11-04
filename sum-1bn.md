@@ -23,8 +23,10 @@ You can measure memory bandwith with [pmbw](https://panthema.net/2013/pmbw/).
 It's certainly possible to beat that, and so you can for example with H2O, though if you use
 H2O you should also consider that data is compressed in RAM, so on one hand it's faster to read
 it over the bus, but it take extra CPU cycles to decompress it. To have an apples-to-apples 
-comparison, you could [test on random doubles](https://gist.github.com/szilard/f9d3387c47c5d79aa9ab) 
-(instead of vector of ones), because in that case compression is minimal (I've got 0.4 sec).
+comparison, you could test on random doubles (instead of vector of ones), because in that 
+case compression is minimal (I've got 0.4 sec 
+[calling it from R/Python]((https://gist.github.com/szilard/f9d3387c47c5d79aa9ab), 
+but I'm sure that has overhead and one should time the sum from Java).
 
 
 ---------------------------------------------
