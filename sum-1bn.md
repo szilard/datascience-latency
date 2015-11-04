@@ -14,11 +14,18 @@ java     | 1.2
 This is all about 1 sec, and it is the single-thread memory bandwidth of the machine,
 ~8GB/sec (the numbers are 64-bit/8-byte doubles, i.e. 8GB in RAM).
 
-A simple [parallelized version in C](https://gist.github.com/szilard/d3cb76839fddc2d529f3) 
+A *simple* [parallelized version in C](https://gist.github.com/szilard/d3cb76839fddc2d529f3) 
 runs in 0.5 sec on 16 cores (vs single-threaded 0.7 sec),
 by exploiting that the multi-thread memory bandwidth is slightly larger than the single-threaded one
 (but not proportionally with the number of threads/cores).
 You can measure memory bandwith with [pmbw](https://panthema.net/2013/pmbw/).
+
+It's certainly possible to beat that, and so you can for example with H2O, though if you use
+H2O you should also consider that data is compressed in RAM, so on one hand it's faster to read
+it over the bus, but it take extra CPU cycles to decompress it. To have an apples-to-apples 
+comparison, you could test on random doubles (instead of 1s), because in that case compression is
+minimal.
+
 
 ---------------------------------------------
 
