@@ -13,7 +13,7 @@ commodity hardware (in 2015). I'm making huge simplifications here.
 
 #### TL;DR
 
-    | Analytical task                | Records  | Time | Rec/s 
+.   | Analytical task                | Records  | Time | Rec/s 
 ----|--------------------------------|----------|------|-------
 1   | Non-linear supervised learning | 1M       | 100s | 10K   
 2   | Linear supervised learning     | 10M      | 10s  | 1M    
